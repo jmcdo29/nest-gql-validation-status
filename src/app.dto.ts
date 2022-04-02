@@ -10,6 +10,6 @@ export class App {
 @InputType()
 export class AppInput {
   @IsBooleanString()
-  @Field()
+  @Field({ nullable: false })
   key: string;
 }

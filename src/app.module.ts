@@ -10,7 +10,7 @@ import { AppService } from './app.service';
   imports: [
     GraphQLModule.forRoot({
       driver: ApolloDriver,
-      autoSchemaFile: true,
+      autoSchemaFile: 'schema.gql',
     }),
   ],
   controllers: [AppController],
